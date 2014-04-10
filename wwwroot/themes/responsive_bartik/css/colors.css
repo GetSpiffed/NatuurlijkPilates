@@ -77,8 +77,9 @@ a:active {
 }
 
 #footer-wrapper {
-  /*background: #292929;*/
-  	background: #FFFFFF;
+    /*background: #292929;*/
+    background: #6FA4D7;
+  	/*background: #FFFFFF;*/
 }
 
 .region-header,

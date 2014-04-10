@@ -2,7 +2,6 @@
 /* ------------------- Overall Specifications ------------- */
 
 body {
-  line-height: 1.5;
   font-size: 87.5%;
   word-wrap: break-word;
   margin: 0;
@@ -874,16 +873,8 @@ ul.links.inline li a {
 #footer-wrapper {
   color: #c0c0c0;
   font-size: 0.857em;
-  background: #FFFFFF;
-    -webkit-border-bottom-left-radius: 40% 80px;
-    -webkit-border-bottom-right-radius: 40% 80px;
-    -moz-border-radius-bottomleft: 40% 80px;
-    -moz-border-radius-bottomright: 40% 80px;
-    border-bottom-left-radius: 40% 80px;
-    border-bottom-right-radius: 40% 80px;  
-	margin-bottom: 5px;
-  
 }
+
 #footer-wrapper a {
   color: #fcfcfc;
   color: rgba(255, 255, 255, 0.8);
@@ -956,12 +947,12 @@ ul.links.inline li a {
 }
 #footer {
   letter-spacing: 0.2px;
-  margin-top: 30px;
-  border-top: 1px solid #555;
+  /*margin-top: 30px;*/
+  /*border-top: 1px solid #555;*/
   border-color: rgba(255, 255, 255, 0.15);
 }
 #footer .region {
-  margin-top: 20px;
+  /* margin-top: 20px; */
 }
 #footer .block {
   clear: both;
@@ -1785,4 +1776,10 @@ a#menu-toggle:after {
   position: absolute !important;
   clip: rect(1px, 1px, 1px, 1px);
   left: 0;
+}
+
+
+/* ------------------- news ----------------------------- */
+.view-news .view-content .views-row {
+    padding-bottom: 12px
 }
