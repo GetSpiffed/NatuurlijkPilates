@@ -799,6 +799,10 @@ ul.links.inline li a {
   font-size: 1.071em;
   line-height: 1.2;
 }
+ .region-sidebar-second h2 {
+  border-bottom: 0px solid #d6d6d6;
+}
+
 .sidebar .block .content {
   font-size: 0.914em;
   line-height: 1.4;
@@ -1782,4 +1786,9 @@ a#menu-toggle:after {
 /* ------------------- news ----------------------------- */
 .view-news .view-content .views-row {
     padding-bottom: 12px
+}
+
+.flex-pauseplay, .flex-pause{
+    overflow:hidden;
+    display:none;
 }
